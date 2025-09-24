@@ -32,7 +32,7 @@ function Landing() {
 
                 <a
                   className="btn btn-outline-secondary btn-lg hover-effect"
-                  href="#features"
+                  href="/AboutUs"
                 >
                   Learn More
                 </a>
