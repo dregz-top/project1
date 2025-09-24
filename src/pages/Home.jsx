@@ -12,6 +12,9 @@ import Sport from "../codes/Sport";
 import Automotive from "../codes/Automotive";
 import Footer from "../codes/Footer";
 import Baby from "../codes/Baby";
+import cib from '/photos/cib.avif';
+import book from '/photos/book.avif';
+import backToSchool from '/photos/back-to-school.png';
 
 function Home() {
 
@@ -39,13 +42,13 @@ function fetchCards() {
     <div id="carouselExample" className="carousel slide">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="/photos/back-to-school.png" className="d-block back-to-school-cursoul" alt="..."/>
+          <img {backToSchool} className="d-block back-to-school-cursoul" alt="..."/>
         </div>
         <div className="carousel-item">
-          <img src="/photos/cib.avif" className="d-block cib-cursoul" alt="..."/>
+          <img src={cib} className="d-block cib-cursoul" alt="..."/>
         </div>
         <div className="carousel-item">
-          <img src="/photos/book.avif" className="d-block book-cursoul" alt="..."/>
+          <img src={book} className="d-block book-cursoul" alt="..."/>
         </div>
       </div>
       <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
