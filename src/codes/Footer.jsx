@@ -22,7 +22,7 @@ function Footer() {
             <h6 className="fw-bold">Links</h6>
             <ul className="list-unstyled font-of-footer">
               <li><a href="#">Home</a></li>
-              <li><a href="/ContactUs">Contact Us</a></li>
+              <li><a href="../ContactUs">Contact Us</a></li>
               <li><a href="#">About Us</a></li>
               <li><a href="/Home">Products</a></li>
             </ul>
