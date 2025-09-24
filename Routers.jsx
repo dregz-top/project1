@@ -13,7 +13,7 @@ export default function Routers() {
       <Route path="/About" element={<About/>} />
       <Route path="/Products/:name" element={<Products/>} />1
       <Route path='*' element={<Error/>}/>
-      <Route path="/ContactUs" element={<Contactus/>}/>
+      <Route path="/Contactus" element={<Contactus/>}/>
       <Route path="/Done" element={<Done/>}/>
       <Route path="/" element={<Landing/>}/>
     </Routes>
