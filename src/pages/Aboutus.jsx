@@ -1,4 +1,3 @@
-// ...existing code...
 import React from 'react';
 import Footer from '../codes/Footer';
 import Nav from '../codes/Nav';
@@ -90,4 +89,4 @@ function AboutUs() {
 }
 
 export default AboutUs;
-// ...existing code...
+
