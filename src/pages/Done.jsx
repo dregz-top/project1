@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from '../codes/Nav'
 import Footer from '../codes/Footer'
-
+import done from '/photos/done.png'
 function Done() {
    const imgStyle = {
       width: '100%',
@@ -16,7 +16,7 @@ function Done() {
       <>
          <Nav/>
          <main className='d-flex justify-content-center align-items-center'>
-            <img src="/photos/done.png" alt="Done" style={imgStyle}/>
+            <img src={done} alt="Done" style={imgStyle}/>
          </main>
          <Footer/>
       </>
