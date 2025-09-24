@@ -4,7 +4,7 @@ import Nav from '../codes/Nav'
 function About() {
   return (
     <>
-    <Nav/>  
+    <Nav/> 
     </>
   )
 }

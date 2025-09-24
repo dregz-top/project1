@@ -37,7 +37,7 @@ function Products() {
           <h1>{product.name}</h1>
           <p>{product.title}</p>
           <p><span style={{ fontWeight: 'bold' }}>Price :</span> EGP {product.price}</p>
-          <Link to="/">
+          <Link to="/Home">
             <button className="btn btn-success">Buy now</button>
           </Link>
         </div>

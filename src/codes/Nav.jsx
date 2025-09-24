@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 function Nav() {
   const [SEARCH, SETSEARCH] = useState("");
   const [DATA, SETDATA] = useState([]);
@@ -61,20 +62,18 @@ function Nav() {
             <button className="btn btn-outline-success" type="submit">
               Search
             </button>
-          </form>
-
-          <ul className="navbar-nav me-3 position-relative">
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                role="button"
+          </form> 
+            <li className="nav-item dropdown me-3 list-unstyled">
+              <button
+                className="nav-link dropdown-toggle btn btn-link"
+                type="button"
+                id="deliverDropdown"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
                 Deliver To Egypt
-              </a>
-              <ul className="dropdown-menu position-absolute">
+              </button>
+              <ul className="dropdown-menu position-absolute" aria-labelledby="deliverDropdown">
                 <li><a className="dropdown-item" href="#">Cairo</a></li>
                 <li><a className="dropdown-item" href="#">Giza</a></li>
                 <li><a className="dropdown-item" href="#">Qalyubia</a></li>
@@ -86,8 +85,6 @@ function Nav() {
                 <li><a className="dropdown-item" href="#">Tanta</a></li>
               </ul>
             </li>
-          </ul>
-
           <button className="btn btn-primary">Login</button>
         </div>
       </nav>

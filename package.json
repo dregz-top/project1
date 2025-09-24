@@ -2,7 +2,7 @@
   "name": "project",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dregz-top.github.io/project",
+  "homepage": "https://dregz-top.github.io/project1",
   "type": "module",
   "scripts": {
     "dev": "vite",
