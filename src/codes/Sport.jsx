@@ -23,21 +23,27 @@ function fetchCards() {
   return (
   <div className="container">
     <div className="row">
-      {cards.map((value, index) => (
-        <div className="col-md-3 mb-4 d-flex justify-content-center">
-          <div className="card border-of-card" style={{ width: "18rem" }}>
-            <img src={value.img} className="card-img-top jkl p-4" alt="..." />
-            <div className="card-body">
-              <p className="card-text title-card">{value.title}</p>
-              <span className="egb-size">EGP</span><span className="card-text price-card fw-bold">{value.price}</span>
-              <br></br>
-              <button onClick={() => navigate(`/Products/${encodeURIComponent(value.name)}`)} className="btn btn-primary mt-3" aria-label="Add to cart">
-                <FontAwesomeIcon icon={faCartPlus} size="lg" />
-              </button>
+     {cards.map((value, index) => (
+            <div key={index} className="col-6 col-md-6 col-lg-3 d-flex align-items-stretch">
+              <div className="card w-100">
+                <div className="ratio ratio-4x3">
+                  <img src={value.img} className="card-img-top img-fluid p-3" alt={value.title} style={{ objectFit: 'contain' }}/>
+                </div>
+                <div className="card-body d-flex flex-column">
+                  <p className="card-text title-card mb-2" style={{flexGrow:0}}>{value.title}</p>
+                  <div className="mt-auto">
+                    <div className="mb-2">
+                      <span className="egb-size">EGP</span>
+                      <span className="card-text price-card fw-bold ms-1">{value.price}</span>
+                    </div>
+                    <button onClick={() => navigate(`/Products/${encodeURIComponent(value.name)}`)} className="btn btn-primary w-100" aria-label="Add to cart">
+                      <FontAwesomeIcon icon={faCartPlus} />
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      ))}
+          ))}
     </div>
   </div>
   )
