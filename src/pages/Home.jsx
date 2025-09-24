@@ -42,7 +42,7 @@ function fetchCards() {
     <div id="carouselExample" className="carousel slide">
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img {backToSchool} className="d-block back-to-school-cursoul" alt="..."/>
+          <img src={backToSchool} className="d-block back-to-school-cursoul" alt="..."/>
         </div>
         <div className="carousel-item">
           <img src={cib} className="d-block cib-cursoul" alt="..."/>
