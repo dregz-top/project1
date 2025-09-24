@@ -14,16 +14,16 @@ function Footer() {
       <div className="container">
         <div className="row">
           <a className="col-md-4 mb-4 d-flex align-items-center" href="/">
-            <img src={trone} alt="Trone Logo" className="logo-img" />
+              <img src={trone} alt="Trone Logo" className="logo-img" />
             <h5 className="mb-0">Trone</h5>
           </a>
 
           <div className="col-md-4 mb-4">
             <h6 className="fw-bold">Links</h6>
             <ul className="list-unstyled font-of-footer">
-              <li><a href="#">Home</a></li>
-              <li><a href="./ContactUs">Contact Us</a></li>
-              <li><a href="#">About Us</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/ContactUs">Contact Us</a></li>
+              <li><a href="/AboutUs">About Us</a></li>
               <li><a href="/Home">Products</a></li>
             </ul>
           </div>
