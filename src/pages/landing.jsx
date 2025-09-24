@@ -1,4 +1,3 @@
-// ...existing code...
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import Nav from '../codes/Nav'
@@ -72,4 +71,3 @@ function Landing() {
 }
 
 export default Landing
-// ...existing code...
