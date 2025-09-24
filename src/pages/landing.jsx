@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import Nav from '../codes/Nav'
 import Footer from '../codes/Footer'
 import './Landing.css'
+import trone from '../photos/trone.png'
 
 function Landing() {
   const navigate = useNavigate()
@@ -20,7 +21,7 @@ function Landing() {
           <div className="row justify-content-center">
             <div className="col-lg-8">
               <h1 className="display-4 fw-bold mb-3">Welcome to Trone</h1>
-                <img src='/photos/trone.png' className='arrow-down' style={{height:"100px"}}/>
+                <img src={trone} className='arrow-down' style={{height:"100px"}}/>
               <div className="d-flex justify-content-center gap-3 ">
                 <button
                   className="btn btn-primary btn-lg hover-effect"
