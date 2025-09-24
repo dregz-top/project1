@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import Nav from '../codes/Nav'
 import Footer from '../codes/Footer'
 import './Landing.css'
-import trone from '../photos/trone.png'
+import trone from '/photos/trone.png'
 
 function Landing() {
   const navigate = useNavigate()
