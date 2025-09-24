@@ -2,6 +2,7 @@
 import React from 'react';
 import Footer from '../codes/Footer';
 import Nav from '../codes/Nav';
+import trone from '/photos/trone.png';
 
 function AboutUs() {
   return (
@@ -15,7 +16,7 @@ function AboutUs() {
         <div style={{ flex: 1 }}>
           <div className="d-flex align-items-center mb-3">
             <img
-              src="/photos/trone.png"
+              src={trone}
               alt="Trone"
               width="56"
               height="56"
@@ -75,7 +76,7 @@ function AboutUs() {
         <div style={{ width: 220, flexShrink: 0 }}>
           <div className="bg-light rounded-3 p-3 text-center" style={{ height: '100%' }}>
             <img
-              src="/photos/trone.png"
+              src={trone}
               alt="Trone logo"
               style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
             />
