@@ -11,7 +11,7 @@ function Baby() {
 const [cards, setCards] = useState([]);
  const navigate = useNavigate()
 function fetchCards() {
-    axios.get("http://localhost:3000/Baby ").then((res) => {
+    axios.get("/db.json").then((res) => {
         setCards(res.data);
       })
       .catch((error) => {
