@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom'
 import './Home.css'
 import axios from 'axios'
 import Beauty from "../codes/Beauty";
-import Sport from "../codes/sport";
+import Sport from "../codes/Sport";
 import Automotive from "../codes/Automotive";
 import Footer from "../codes/Footer";
 import Baby from "../codes/Baby";
