@@ -4,6 +4,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import trone from '/photos/trone.png'
 
 library.add(fab, faCheckSquare, faCoffee)
 
@@ -13,7 +14,7 @@ function Footer() {
       <div className="container">
         <div className="row">
           <a className="col-md-4 mb-4 d-flex align-items-center" href="/">
-            <img src="/photos/trone.png" alt="Trone Logo" className="logo-img" />
+            <img src={trone} alt="Trone Logo" className="logo-img" />
             <h5 className="mb-0">Trone</h5>
           </a>
 
