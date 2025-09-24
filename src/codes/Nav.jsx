@@ -37,7 +37,7 @@ function Nav() {
         <div className="container-fluid d-flex align-items-center">
           <a className="navbar-brand d-flex align-items-center me-3" href="/">
             <img
-              src="/photos/trone.png"
+              src={trone}
               width="40"
               height="40"
               className="d-inline-block align-text-top me-2"
