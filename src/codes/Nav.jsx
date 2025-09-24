@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import trone from '/photos/trone.png'
 function Nav() {
   const [SEARCH, SETSEARCH] = useState("");
   const [DATA, SETDATA] = useState([]);
