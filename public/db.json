@@ -1,0 +1,60 @@
+{
+  "Mobile": [
+  { "name":"Samsung Galaxy S25 Ultra","title": "Galaxy S25 Ultra 5G Dual SIM Titanium Gray 12GB RAM 256GB -Middle East Version","img":"/photos/25ultra.avif","price":"53,750","buy":"http://localhost:5173/Products"},
+  { "name":"Iphone 16 Pro Max","title": "iPhone 16 Pro Max 256GB Desert Titanium 5G With FaceTime - Middle East Version","img":"/photos/16promax.avif","price":"74,307","buy":"http://localhost:5173/Products"},
+  { "name":"Iphone 15 Pro Max","title": "iPhone 15 Pro Max 256GB Natural Titanium -Middle East Version 5G With FaceTime","img":"/photos/15promax.avif","price":"60,330","buy":"http://localhost:5173/Products"},
+  { "name":"Infinx Smart 10","title": "Infinix Smart 10 Dual SIM Sleek Black 4+4GB RAM 256GB 4G - Middle East Version","img":"/photos/infinix10.avif","price":"6,900","buy":"http://localhost:5173/Products"}
+  ],
+  "Beauty": [
+  { "name":"Elvive Shampo","title": "Elvive Hyaluron Moisture Filling Shampoo Replumps Hair With 72H Of Hydration 600ml","img":"/photos/shampo.avif","price":"220","buy":"http://localhost:5173/Products"},
+  { "name":" Brush Set","title": "Everyday Essentials Multi Use Brush Set Multicolour","img":"/photos/Brush.avif","price":"120","buy":"http://localhost:5173/Products"},
+  { "name":"Skin Care","title": "Baby Skin Instant Pore Eraser Primer Translucent","img":"/photos/skin.avif","price":"273","buy":"http://localhost:5173/Products"},
+  { "name":"Mascara","title": "Lash Princess False Lash Effect Mascara 01 Black","img":"/photos/Mascara.avif","price":"212","buy":"http://localhost:5173/Products"}
+  ],
+  "Sport": [
+  { "name":"Mikasa Ball","title": "Mikasa Football Size 5","img":"/photos/cora.avif","price":"150","buy":"http://localhost:5173/Products"},
+  { "name":"Xiaomi Sccooter","title": "Xiaomi Electric Scooter 4 Lite (2nd Gen) |300W motor | 25 km/h Max Speed | 25 km travel range 121.9cm" ,"img":"/photos/scooter.avif","price":"17,330","buy":"http://localhost:5173/Products"},
+  { "name":"Icone Treadmill","title": "ICON Treadmill 3810 DC - 2 HP - Support up to 110 KG" ,"img":"/photos/mashaya.avif","price":"11,399","buy":"http://localhost:5173/Products"},
+  { "name":"Sport Bottle","title": "SportQ SportQ®️ Protein Shaker Bottle (450ml) Leakproof Shaker Bottle with Storage for Protein" ,"img":"/photos/shaker.avif","price":"350","buy":"http://localhost:5173/Products"} 
+    ],
+    "Automotive": [
+  { "name":"TotalEnergies Pack","title": "TotalEnergies Pack of 12 COOLELF AUTO SUPRA -26°C -1 Liter" ,"img":"/photos/pack1.avif","price":"1,499","buy":"http://localhost:5173/Products"},
+  { "name":"TotalEnergies Quartz INEO","title": "TotalEnergies QUARTZ INEO MC3 5W-30 - 1 Liter" ,"img":"/photos/pack2.avif","price":"430","buy":"http://localhost:5173/Products"},
+  { "name":"TotalEnergies Quartz 7000","title": "TotalEnergies QUARTZ 7000 10W-40 Synthetic Technology - 5L (10,000 Km)" ,"img":"/photos/pack3.avif","price":"920","buy":"http://localhost:5173/Products"},
+  { "name":"Car Tyre","title": "PIRELLI Car Tyre 225/55R17 97Y R-F (*) (MOE)" ,"img":"/photos/tyre.avif","price":"9,600","buy":"http://localhost:5173/Products"}
+    ],
+    "Baby" : [
+  {"name":"Molfix","title": "Molfix 80 Piece- Maxi Mega Pack 3D, Size 4, 7 to 18 kg","img" : "/photos/molfix.avif","price":"440","buy" :"http://localhost:5173/Products"},
+  {"name":"Johnson's Baby Shampoo","title": "Johnson's Baby Shampoo 750ml","img" :"/photos/jonson.avif","price":"260","buy":"http://localhost:5173/Products"},
+  {"name":"Sudocrem","title": "Sudocrem Antiseptic Healing Cream To Protect Rash And Surface Wound - 250g","img" :"/photos/sudo.avif","price":"660","buy":"http://localhost:5173/Products"},
+  {"name":"Pampers Baby-Dry Pants Diapers","title": "Pampers Baby-Dry Pants Diapers, Size 5, 12-17 kg, 44 Count","img" :"/photos/penduline.avif","price":"90","buy":"http://localhost:5173/Products"}
+    ],
+
+
+
+
+
+    
+    "db" :[
+      { "name":"Samsung Galaxy S25 Ultra","title": "Galaxy S25 Ultra 5G Dual SIM Titanium Gray 12GB RAM 256GB -Middle East Version","img":"/photos/25ultra.avif","price":"53,750","buy":"http://localhost:5173/Products"},
+      { "name":"Iphone 16 Pro Max","title": "iPhone 16 Pro Max 256GB Desert Titanium 5G With FaceTime - Middle East Version","img":"/photos/16promax.avif","price":"74,307","buy":"http://localhost:5173/Products"},
+      { "name":"Iphone 15 Pro Max","title": "iPhone 15 Pro Max 256GB Natural Titanium -Middle East Version 5G With FaceTime","img":"/photos/15promax.avif","price":"60,330","buy":"http://localhost:5173/Products"},
+      { "name":"Infinx Smart 10","title": "Infinix Smart 10 Dual SIM Sleek Black 4+4GB RAM 256GB 4G - Middle East Version","img":"/photos/infinix10.avif","price":"6,900","buy":"http://localhost:5173/Products"},
+      { "name":"Elvive Shampo","title": "Elvive Hyaluron Moisture Filling Shampoo Replumps Hair With 72H Of Hydration 600ml","img":"/photos/shampo.avif","price":"220","buy":"http://localhost:5173/Products"},
+      { "name":" Brush Set","title": "Everyday Essentials Multi Use Brush Set Multicolour","img":"/photos/Brush.avif","price":"120","buy":"http://localhost:5173/Products"},
+      { "name":"Skin Care","title": "Baby Skin Instant Pore Eraser Primer Translucent","img":"/photos/skin.avif","price":"273","buy":"http://localhost:5173/Products"},
+      { "name":"Mascara","title": "Lash Princess False Lash Effect Mascara 01 Black","img":"/photos/Mascara.avif","price":"212","buy":"http://localhost:5173/Products"},
+      { "name":"Mikasa Ball","title": "Mikasa Football Size 5","img":"/photos/cora.avif","price":"150","buy":"http://localhost:5173/Products"},
+      { "name":"Xiaomi Sccooter","title": "Xiaomi Electric Scooter 4 Lite (2nd Gen) |300W motor | 25 km/h Max Speed | 25 km travel range 121.9cm" ,"img":"/photos/scooter.avif","price":"17,330","buy":"http://localhost:5173/Products"},
+      { "name":"Icone Treadmill","title": "ICON Treadmill 3810 DC - 2 HP - Support up to 110 KG" ,"img":"/photos/mashaya.avif","price":"11,399","buy":"http://localhost:5173/Products"},
+      { "name":"Sport Bottle","title": "SportQ SportQ®️ Protein Shaker Bottle (450ml) Leakproof Shaker Bottle with Storage for Protein" ,"img":"/photos/shaker.avif","price":"350","buy":"http://localhost:5173/Products"},
+      { "name":"TotalEnergies Pack","title": "TotalEnergies Pack of 12 COOLELF AUTO SUPRA -26°C -1 Liter" ,"img":"/photos/pack1.avif","price":"1,499","buy":"http://localhost:5173/Products"},
+      { "name":"TotalEnergies Quartz INEO","title": "TotalEnergies QUARTZ INEO MC3 5W-30 - 1 Liter" ,"img":"/photos/pack2.avif","price":"430","buy":"http://localhost:5173/Products"},
+      { "name":"TotalEnergies Quartz 7000","title": "TotalEnergies QUARTZ 7000 10W-40 Synthetic Technology - 5L (10,000 Km)" ,"img":"/photos/pack3.avif","price":"920","buy":"http://localhost:5173/Products"},
+      { "name":"Car Tyre","title": "PIRELLI Car Tyre 225/55R17 97Y R-F (*) (MOE)" ,"img":"/photos/tyre.avif","price":"9,600","buy":"http://localhost:5173/Products"},
+      {"name":"Molfix","title": "Molfix 80 Piece- Maxi Mega Pack 3D, Size 4, 7 to 18 kg","img" : "/photos/molfix.avif","price":"440","buy" :"http://localhost:5173/Products"},
+      {"name":"Johnson's Baby Shampoo","title": "Johnson's Baby Shampoo 750ml","img" :"/photos/jonson.avif","price":"260","buy":"http://localhost:5173/Products"},
+      {"name":"Sudocrem","title": "Sudocrem Antiseptic Healing Cream To Protect Rash And Surface Wound - 250g","img" :"/photos/sudo.avif","price":"660","buy":"http://localhost:5173/Products"},
+      {"name":"Pampers Baby-Dry Pants Diapers","title": "Pampers Baby-Dry Pants Diapers, Size 5, 12-17 kg, 44 Count","img" :"/photos/penduline.avif","price":"90","buy":"http://localhost:5173/Products"}
+    ]
+}
